@@ -12,5 +12,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 		<set-payload value='#["this is first cicd"]' doc:name="Set Payload" doc:id="c76a0510-053e-4de2-a0b2-e296cb06c177" />
 		<logger level="INFO" doc:name="Logger" doc:id="98cd35ab-6e44-4568-b5dd-e635f0e2f250" message="#[payload]"/>
 		<logger level="INFO" doc:name="Logger" doc:id="2a784d72-acc3-463b-b367-ae3c86b7a571" message="#[payload]"/>
+		<logger level="INFO" doc:name="Logger" doc:id="2c5b255c-0580-4449-8a7d-2b123bf248f1" message="#[payload]"/>
 	</flow>
 </mule>
