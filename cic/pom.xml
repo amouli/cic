@@ -44,7 +44,7 @@
                           
                   <workerType>Micro</workerType>
                           
-                  <redeploy>true</redeploy>
+                  
                           
                   <environment>Sandbox</environment>
                   <workers>1</workers>
