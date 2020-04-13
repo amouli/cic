@@ -35,7 +35,7 @@
                   <muleVersion>${app.runtime}</muleVersion>
                           
         
-                  <applicationName>app-cic</applicationName>
+                  <applicationName>app-cic1</applicationName>
                   <uri>https://anypoint.mulesoft.com</uri>
                           
                   <username>mouli13</username>
