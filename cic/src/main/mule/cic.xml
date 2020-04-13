@@ -13,5 +13,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 		<logger level="INFO" doc:name="Logger" doc:id="98cd35ab-6e44-4568-b5dd-e635f0e2f250" message="#[payload]"/>
 		<logger level="INFO" doc:name="Logger" doc:id="2a784d72-acc3-463b-b367-ae3c86b7a571" message="#[payload]"/>
 		<logger level="INFO" doc:name="Logger" doc:id="2c5b255c-0580-4449-8a7d-2b123bf248f1" message="#[payload]"/>
+		<set-payload value='#["this is the first cicd pipeline"]' doc:name="Set Payload" doc:id="09e493a9-8a5a-4009-ae65-e763f1411745" />
 	</flow>
 </mule>
